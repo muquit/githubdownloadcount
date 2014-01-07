@@ -1,6 +1,13 @@
 # github downloads count
 
-A tiny ruby scripts to show github download counts. Wrote it after seeing mmilidoni/github-downloads-count python script
+A tiny ruby script to show github download counts of a project's binary
+assets. I wrote it in ruby after seeing [github-downloads-count](http://mmilidoni.github.io/github-downloads-count/) python script
+
+Requires to install the following gems:
+
+    sudo gem install rest-client
+    sudo gem install trollop
+    sudo gem install json
 
 # Usage
 

@@ -6,23 +6,12 @@
 # muquit@muquit.com Mon Jan 06 16:46:16 -0500 2014 - first cut
 ########################################################################
 
+require 'rubygems'
 require 'logger'
-require 'date'
-require 'fileutils'
-require 'pp'
 
-me = __FILE__
-while File.symlink?(me)
-    me = File.expand_path(File.readlink(me), File.dirname(me))
-end
-mydir = File.expand_path(File.dirname(me))
-
-$: << mydir
-require 'loadgems.rb'
-require 'trollop'
 require 'rest_client'
+require 'trollop'
 require 'json'
-
 
 class GithubDownloadCount
   STDERRLOGGER = Logger.new(STDERR)
