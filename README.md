@@ -9,6 +9,11 @@ Requires to install the following gems:
     sudo gem install trollop
     sudo gem install json
 
+# Update
+
+This project is deprected. Please use
+[githubdownloadcount-go](https://github.com/muquit/githubdownloadcount-go) instead
+
 # Usage
 
     $ ./githubdownloadcount.rb --user github-user --project github-project
