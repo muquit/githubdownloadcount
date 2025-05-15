@@ -11,7 +11,7 @@ Requires to install the following gems:
 
 # Update
 
-This project is deprected. Please use
+This project is deprecated. Please use
 [githubdownloadcount-go](https://github.com/muquit/githubdownloadcount-go) instead
 
 # Usage
